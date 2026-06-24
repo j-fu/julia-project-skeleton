@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.5
+# v1.0.1
 
 using Markdown
 using InteractiveUtils
@@ -22,7 +22,12 @@ md"""
 md"""
 This notebook is only relocateable together with the whole {PKGNAME} project.
 All packages used by this notebook need to be added to the environment in 
-$(dirname(joinpath(@__DIR__,".."))).
+$(dirname(joinpath(@__DIR__,".."))). Due to the activation of this environment in
+this notebook, the inbuild Pluto package manager has been disabled.
+
+The notebook also demonstrates how code common to various scripts and notebooks in
+the project can be accessed, and how [Revise.jl](https://github.com/timholy/Revise.jl)
+works with the Pluto notebook.
 """
 
 # ╔═╡ a8e37976-5db2-485f-87aa-0cf7155e8e00
